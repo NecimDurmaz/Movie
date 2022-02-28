@@ -1,0 +1,265 @@
+<!DOCTYPE html>
+<html lang="tr">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Movies</title>
+
+    <link rel="stylesheet" href="../css/styles.css" />
+  </head>
+  <body id="body">
+    <header class="main-header">
+      <div id="main-nav" class="container responsive">
+        <a href="#" class="main-header__logo">MovieApp</a>
+        <nav class="main-nav">
+          <ul class="main-nav__items">
+            <li class="main-nav__item">
+              <a href="../html/">Movies</a>
+            </li>
+            <li class="main-nav__item">
+              <a href="../html/movies.html">Series</a>
+            </li>
+            <li class="main-nav__item main-nav__item--login">
+              <a class="btn btn-ninth" href="../html/register.html">Register</a>
+            </li>
+            <li class="main-nav__item main-nav__item--login">
+              <a class="btn btn-outline-fifth" href="#">Login</a>
+            </li>
+            <li class="main-nav__item">
+              <a href="#" onclick="displayMenu()">
+                <i class="fa fa-bars fa-2x"></i>
+              </a>
+            </li>
+          </ul>
+        </nav>
+      </div>
+    </header>
+
+    <main>
+      <section id="showcase">
+        <div class="content">
+          <h2>Welcome</h2>
+          <h3>
+            Millions of movies, TV shows and people to discover. Explore now.
+          </h3>
+        </div>
+      </section>
+      <section id="how-it-works">
+        <div class="row">
+          <h2 class="section-title">How it works?</h2>
+          <p>
+            We will show you step by step how to start watching your favorite
+            movies & tv shows starting now!
+          </p>
+        </div>
+
+        <div class="row">
+          <div class="icon-box col-3">
+            <i class="fas fa-sign-in-alt fa-3x"></i>
+            <h3>Register</h3>
+            <p>Sign up for the innovations on our site to reach you first.</p>
+          </div>
+          <div class="icon-box col-3">
+            <i class="fa-brands fa-buffer fa-3x"></i>
+            <h3>Choose a Plan</h3>
+            <p>
+              Choose the plan that suits you among the options to register on
+              our site.
+            </p>
+          </div>
+          <div class="icon-box col-3">
+            <i class="far fa-smile fa-3x"></i>
+            <h3>Enjoy Moviies</h3>
+            <p>
+              And finally, join the fun by choosing one of the unlimited options
+              on our site. :)
+            </p>
+          </div>
+        </div>
+      </section>
+      <section id="features">
+        <div class="row">
+          <div class="col-2 features__left"></div>
+          <div class="col-2 features__right">
+            <h3>Watch all Movies & TV Shows once they get released!</h3>
+            <p>
+              Watch all series and movies in high quality and super speed. Watch
+              the trailers of the new episodes and the newly released episodes,
+              and stay tuned for much more.
+            </p>
+            <a class="btn btn-outline-sixth" href="#">View Features</a>
+          </div>
+        </div>
+      </section>
+      <section id="plans">
+        <div class="container">
+          <div class="row">
+            <h2 class="section-title">Become a Premium Member</h2>
+            <div class="container clearfix">
+              <div class="plan col-3">
+                <div class="inner-plan">
+                  <h2>Free</h2>
+                  <h3>0/month</h3>
+                  <ul class="plan__features">
+                    <li>HD available</li>
+                    <li>Unlimited Movies and TV shows</li>
+                    <li>Watch on your phone & tablet</li>
+                    <li>Download and watch offline</li>
+                    <li>Screens you can watch</li>
+                    <li>First Month Free</li>
+                  </ul>
+                  <div>
+                    <button class="btn btn-seventh">Choose Plan</button>
+                  </div>
+                </div>
+              </div>
+              <div class="col-3 plan plan--featured">
+                <div class="inner-plan recommended_plan">
+                  <h2 class="plan__badge">Recommended</h2>
+                  <h2>Basic</h2>
+                  <h3>$9.99/month</h3>
+                  <ul class="plan__features">
+                    <li>HD available</li>
+                    <li>Unlimited Movies and TV shows</li>
+                    <li>Watch on your phone & tablet</li>
+                    <li>Download and watch offline</li>
+                    <li>Screens you can watch</li>
+                    <li>First Month Free</li>
+                  </ul>
+                  <div>
+                    <button class="btn btn-seventh">Choose Plan</button>
+                  </div>
+                </div>
+              </div>
+              <div class="col-3 plan">
+                <div class="inner-plan">
+                  <h2>Premium</h2>
+                  <h3>$19.99/month</h3>
+                  <ul class="plan__features">
+                    <li>HD available</li>
+                    <li>Unlimited Movies and TV shows</li>
+                    <li>Watch on your phone & tablet</li>
+                    <li>Download and watch offline</li>
+                    <li>Screens you can watch</li>
+                    <li>First Month Free</li>
+                  </ul>
+                  <div>
+                    <button class="btn btn-seventh">Choose Plan</button>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section id="movies">
+        <h2 class="section-title">Latest Movies & TV Shows</h2>
+        <div class="container">
+          <div class="row">
+            <div class="col-3 card-container">
+              <div class="card">
+                <img
+                  class="img-fluid card-image"
+                  src="/img/poster-1.jpeg"
+                  alt=""
+                />
+                <div class="card-body">
+                  <h2>Star Wars</h2>
+                  <p>
+                    The story in Star Wars, namely Star Wars; takes place in a
+                    fictional space galaxy, and its story takes place in an
+                    imaginary universe. In the universe where alien races and
+                    robots that follow their owners' orders live, planets take
+                    their place as members of the Galactic Republic, the
+                    Galactic Empire.
+                  </p>
+                  <p>
+                    <button class="btn btn-seventh">Details</button>
+                  </p>
+                </div>
+              </div>
+            </div>
+            <div class="col-3 card-container">
+              <div class="card">
+                <img
+                  class="img-fluid card-image"
+                  src="/img/poster-2.jpeg"
+                  alt=""
+                />
+                <div class="card-body">
+                  <h2>The Brain</h2>
+                  <p>
+                    The Brain is an American crime drama that premiered on
+                    September 23, 2013. The series follows ex-cadet current
+                    high-profile criminal Raymond "Red" Reddington, who
+                    voluntarily turns himself in to the FBI. In exchange for
+                    legal immunity, he tells the FBI about the organization of
+                    the notorious criminals on the list.
+                  </p>
+                  <p>
+                    <button class="btn btn-seventh">Details</button>
+                  </p>
+                </div>
+              </div>
+            </div>
+            <div class="col-3 card-container">
+              <div class="card">
+                <img
+                  class="img-fluid card-image"
+                  src="/img/poster-3.jpeg"
+                  alt=""
+                />
+                <div class="card-body">
+                  <h2>The Mummy</h2>
+                  <p>
+                    In the series, the hero named Patrick Jane works at the
+                    California Bureau of Investigation. In this office, he
+                    solves crimes with his own unique methods. Jane used to make
+                    a living as a fake psychic. One day, his whole life changes
+                    when a serial killer named Red John kills his family.
+                  </p>
+                  <p>
+                    <button class="btn btn-seventh">Details</button>
+                  </p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <footer>
+      <div class="container">
+        <div class="row">
+          <div class="col-2">
+            <ul id="footer-links">
+              <li><a href="#">About</a></li>
+              <li><a href="#">Blog</a></li>
+              <li><a href="#">Forum</a></li>
+              <li><a href="#">Contact</a></li>
+            </ul>
+          </div>
+          <div class="col-2">
+            <ul id="social-links">
+              <li><a href="" class="fab fa-facebook"></a></li>
+              <li><a href="" class="fab fa-twitter"></a></li>
+              <li><a href="" class="fab fa-instagram"></a></li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </footer>
+    <a href="#body" id="backtotop">
+      <i class="fas fa-chevron-circle-up"></i>
+    </a>
+
+    <script>
+      function displayMenu() {
+        var link = document.getElementById("main-nav");
+        link.classList.toggle("responsive");
+      }
+    </script>
+  </body>
+</html>

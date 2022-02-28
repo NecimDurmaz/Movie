@@ -1,0 +1,225 @@
+.btn {
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  padding: 7px 15px;
+  font-size: 16px;
+  cursor: 16px;
+  border: none;
+  border-radius: 7px;
+  transition-duration: 0.6s;
+}
+
+/* PRİMARY */
+
+.btn-primary {
+  background: #fc997c;
+  color: #faeee7 !important;
+  border: 2px solid #fc997c;
+}
+.btn-primary:hover {
+  background: #faeee7;
+  color: #fc997c !important;
+  border: 2px solid #faeee7;
+}
+
+.btn-outline-primary {
+  background: #faeee7;
+  color: #fc997c !important;
+  border: 2px solid #faeee7;
+}
+.btn-outline-primary:hover {
+  background: #fc997c;
+  color: #faeee7 !important;
+  border: 2px solid #fc997c;
+}
+
+/* SECONDARY */
+
+.btn-secondary {
+  background: #2e4c6d;
+  color: #c1deae !important;
+  border: 2px solid #2e4c6d;
+}
+.btn-secondary:hover {
+  background: #c1deae;
+  color: #2e4c6d !important;
+  border: 2px solid #c1deae;
+}
+
+.btn-outline-secondary:hover {
+  background: #2e4c6d;
+  color: #c1deae !important;
+  border: 2px solid #2e4c6d;
+}
+.btn-outline-secondary {
+  background: #c1deae;
+  color: #2e4c6d !important;
+  border: 2px solid #c1deae;
+}
+
+/* TERTİARY */
+
+.btn-tertiary {
+  background: #fc5185;
+  color: #f7f1e3 !important;
+  border: 2px solid #fc5185;
+}
+.btn-tertiary:hover {
+  background: #f7f1e3;
+  color: #fc5185 !important;
+  border: 2px solid #f7f1e3;
+}
+
+.btn-outline-tertiary:hover {
+  background: #fc5185;
+  color: #f7f1e3 !important;
+  border: 2px solid #fc5185;
+}
+.btn-outline-tertiary {
+  background: #f7f1e3;
+  color: #fc5185 !important;
+  border: 2px solid #f7f1e3;
+}
+
+/* FOURTH */
+
+.btn-fourth {
+  background: #f94892;
+  color: #252a34 !important;
+  border: 2px solid #f94892;
+}
+.btn-fourth:hover {
+  background: #252a34;
+  color: #f94892 !important;
+  border: 2px solid #252a34;
+}
+
+.btn-outline-fourth:hover {
+  background: #f94892;
+  color: #252a34 !important;
+  border: 2px solid #f94892;
+}
+.btn-outline-fourth {
+  background: #252a34;
+  color: #f94892 !important;
+  border: 2px solid #252a34;
+}
+
+/* FİFTH */
+
+.btn-fifth {
+  background: #b5fe83;
+  color: #718093 !important;
+  border: 2px solid #b5fe83;
+}
+.btn-fifth:hover {
+  background: #718093;
+  color: #b5fe83 !important;
+  border: 2px solid #718093;
+}
+
+.btn-outline-fifth {
+  background: #718093;
+  color: #b5fe83 !important;
+  border: 2px solid #718093;
+}
+.btn-outline-fifth:hover {
+  background: #b5fe83;
+  color: #718093 !important;
+  border: 2px solid #b5fe83;
+}
+
+/* SİXTH */
+
+.btn-sixth {
+  background: #eeedde;
+  color: #141e27 !important;
+  border: 2px solid #eeedde;
+}
+.btn-sixth:hover {
+  background: #141e27;
+  color: #eeedde !important;
+  border: 2px solid #141e27;
+}
+
+.btn-outline-sixth {
+  background: #141e27;
+  color: #eeedde !important;
+  border: 2px solid #141e27;
+}
+.btn-outline-sixth:hover {
+  background: #eeedde;
+  color: #141e27 !important;
+  border: 2px solid #eeedde;
+}
+
+/* SEVENTH */
+
+.btn-seventh {
+  background: #072227;
+  color: #aefeff !important;
+  border: 2px solid #072227;
+}
+.btn-seventh:hover {
+  background: #aefeff;
+  color: #072227 !important;
+  border: 2px solid #aefeff;
+}
+.btn-outline-seventh {
+  background: #aefeff;
+  color: #072227 !important;
+  border: 2px solid #aefeff;
+}
+.btn-outline-seventh:hover {
+  background: #072227;
+  color: #aefeff !important;
+  border: 2px solid #072227;
+}
+
+/* EİGHTH */
+
+.btn-eighth {
+  background: #fc28fb;
+  color: #fdebf7 !important;
+  border: 2px solid #fc28fb;
+}
+.btn-eighth:hover {
+  background: #fdebf7;
+  color: #fc28fb !important;
+  border: 2px solid #fdebf7;
+}
+
+.btn-outline-eighth {
+  background: #fdebf7;
+  color: #fc28fb !important;
+  border: 2px solid #fdebf7;
+}
+.btn-outline-eighth:hover {
+  background: #fc28fb;
+  color: #fdebf7 !important;
+  border: 2px solid #fdebf7;
+}
+
+/* NİNTH */
+.btn-ninth {
+  background: #328dae;
+  color: #fffbe9 !important;
+  border: 2px solid #328dae;
+}
+.btn-ninth:hover {
+  background: #fffbe9;
+  color: #328dae !important;
+  border: 2px solid #fffbe9;
+}
+
+.btn-outline-ninth:hover {
+  background: #328dae;
+  color: #fffbe9 !important;
+  border: 2px solid #328dae;
+}
+.btn-outline-ninth {
+  background: #fffbe9;
+  color: #328dae !important;
+  border: 2px solid #fffbe9;
+}
